@@ -7,7 +7,7 @@ Stdlib only, no network, deterministic.
 import os
 
 # One line, 128 characters. The gate (RULES.txt) allows 1-200.
-LINE = "My calendar blocked 'focus time' this morning, so my manager booked over it with a meeting called 'Quick sync about focus time'."
+LINE = "My calendar blocked 'focus time' this morning, so my manager booked over it with a meeting called 'Quick sync about focus time' — and invited twelve people."
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
